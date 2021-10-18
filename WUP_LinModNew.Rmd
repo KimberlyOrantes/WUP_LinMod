@@ -42,9 +42,20 @@ The ARM v. SIMS scatterplot shows a positive correlation between the two numeric
    
 ### Numerical results
 
+```{r}
+cor(SIMS~ARM,data=data)
+```
 
 ### Inferential  (Build model.1)
 
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+
+SIMS = 0.054563(ARM) - 4.095160  
+Our adjusted R-squared is 0.467. This indicates that ARM variable explains less than half of the variation of the SIMS data. This reduces the error of the mean model of the equation by 46.7%. The calculated residual standard error of the data is 1.226. This is the measure of the deviation from our regression line.  
+  
 #### Predict at target point
 
 
