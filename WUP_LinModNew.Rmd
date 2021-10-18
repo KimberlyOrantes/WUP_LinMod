@@ -21,7 +21,6 @@ Read about the data from the website where it is staged.  Then form three regres
 ```{r include=FALSE}
 require(tidyverse)
 require(tigerstats)
-require(rgl)
 require(knitr)
 
 ```
@@ -35,6 +34,12 @@ data <- read.csv(file="https://onlinestatbook.com/case_studies_rvls/physical_str
 
 ### scatterplot
 
+```{r}
+plot(SIMS~ARM,data=data)
+```
+
+The ARM v. SIMS scatterplot shows a positive correlation between the two numerical variables. The scatterplot has a relatively consistent bond with of approximately -4 and the standard deviation of the data could be equal to approximately 1.  
+   
 ### Numerical results
 
 
