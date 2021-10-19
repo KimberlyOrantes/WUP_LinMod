@@ -117,7 +117,13 @@ Here when GRIP is 94 and the prediction of SIMS is -0.5361543.
   
 #### now add the model fit to our plot for model.2
   
+```{r}
+basicNT <- ggplot(data,aes(y=SIMS,x=GRIP))
+```
 
+```{r}
+basicNT + geom_point() + geom_smooth(method=lm)
+``` 
 
 ## Model 3 SIM~ARM+GRIP
 
