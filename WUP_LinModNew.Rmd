@@ -83,7 +83,12 @@ basicNN + geom_point() + geom_smooth(method=lm)
 
 ### Now add in scatterplot
 
+```{r}
+plot(SIMS~GRIP,data=data)
+```
 
+This scatter plot is trending up to the right of the graph, indicating a positive linear correlation.  
+  
 ### Numerical results 
 
 
