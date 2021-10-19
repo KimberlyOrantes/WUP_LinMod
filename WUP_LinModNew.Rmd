@@ -46,7 +46,7 @@ The ARM v. SIMS scatterplot shows a positive correlation between the two numeric
 cor(SIMS~ARM,data=data)
 ```
 
-The correlation shown is about 0.69.  
+The correlation shown is 0.6860073.  
   
 ### Inferential  (Build model.1)
 
@@ -91,7 +91,12 @@ This scatter plot is trending up to the right of the graph, indicating a positiv
   
 ### Numerical results 
 
-
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+  
+The correlation is 0.6398458 which is smaller than the SIMS~ARM correlation of 0.6860073. It is a 0.0461615 difference.  
+  
 ### Inferential  (Build model.2)
   
 
