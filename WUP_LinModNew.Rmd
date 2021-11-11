@@ -165,7 +165,7 @@ When ARM is 88 and GRIP is 94 together, the prediction of SIMS is 0.1496476.
 anova(model.1,model.3)
 ```
 
-The output shows that in model 1 the amount of errors in the mean model is 217.88. 
+The output shows that in model.1 the amount of errors in the mean model is 217.88. This shows that model.3 is better than model.1 of SIMS ~ ARM because the amount of errors in model.3 is 188.43.  
 
 ### Model.2 vs Model.3
 
@@ -173,7 +173,7 @@ The output shows that in model 1 the amount of errors in the mean model is 217.8
 anova(model.2,model.3)
 ```
 
-This comparison shows that model 3 is better than model 2 since it shows that the error in the GRIP model is 243.07 and in model 3 it is 188.43. 
+This comparison shows that model.3 is better than model.2 since it shows that the error in the GRIP model is 243.07 and in model.3 it is 188.43. 
   
 ## Informally compare Model.1 with model.2
 
