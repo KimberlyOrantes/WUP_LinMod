@@ -181,5 +181,5 @@ This comparison shows that model.3 is better than model.2 since it shows that th
 anova(model.1,model.2)
 ```
 
-When comparing model 1 and model 2 we can not get a statistical assessment. There's is no p-value shown but what we can see is that the residual standard of error in model 1 is 217.88 and in model 2 it is 243.07. From this we can conclude that model 1 is better than model 2. 
+When comparing model 1 and model 2 we can not get a statistical assessment. There's is no p-value shown because these are nested model. What we can see is that the residual standard of error in model 1 is 217.88 and in model 2 it is 243.07. From this we can conclude that model 1 is better than model 2. 
   
